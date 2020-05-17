@@ -11,4 +11,9 @@ public class PersonList {
         return "Hello World";
     }
 
+    @GetMapping("/people")
+    public String getPeople() {
+        return "This is people";
+    }
+
 }
