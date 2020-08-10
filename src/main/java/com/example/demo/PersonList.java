@@ -8,7 +8,7 @@ public class PersonList {
 
     @GetMapping("/")
     public String getIndex() {
-        return "Hello World";
+        return "Hello Siekny, Hok loves Siekny";
     }
 
     @GetMapping("/people")
